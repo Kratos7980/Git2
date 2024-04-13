@@ -6,6 +6,9 @@ public class App {
         String name=car.getName();
         if(existe) {
             System.out.printf("El fichero /s existe", name);
+
+            System.out.println("He añadido un espacio en blanco y " +
+                    "un System.out.println");
         }
     }
 }
